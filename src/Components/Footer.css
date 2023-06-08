@@ -1,0 +1,31 @@
+.icon {
+    margin: 10px;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+
+}
+
+.icon:hover {
+    transform: scale(2);
+}
+
+#instagram:hover {
+    color: #d62976;
+}
+
+#facebook:hover {
+    color: #3b5998;
+}
+
+#linkedin:hover {
+    color: #0e76a8;
+
+}
+
+#twitter:hover{
+    color:  #00acee;
+}
+
+#website:hover{
+    color: #ADD8E6;
+}
