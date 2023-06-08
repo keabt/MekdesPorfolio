@@ -2,6 +2,13 @@ import React from 'react';
 import './EmailForm.css'
 
 const EmailForm = () => {
+  const handleClick = (event) => {
+    event.preventDefault();
+    // Handle the button click logic here
+  };
+
+
+
   return (
     <div className='form'>
     <form>
@@ -11,7 +18,7 @@ const EmailForm = () => {
         name="email"
         placeholder="Enter your email"
       />
-      <button>Send</button>
+      <button onClick={handleClick}>Send</button>
     </form>
     </div>
   );

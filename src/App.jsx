@@ -13,6 +13,10 @@ import bgMusic from './assets/Nancy.mp3';
 
 function App() {
   const audioElement = useRef(null);
+  const handleClick = (event) => {
+    event.preventDefault();
+    // Handle the button click logic here
+  };
 
   const playAudio = () => {
     if (audioElement.current.paused) {
